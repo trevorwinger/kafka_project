@@ -13,11 +13,11 @@ You do not have to install any of these the shell file will install necessary pi
 #### 1. Running
 You will have to move to the directory you installed the git files and run: `sh run.sh` \n
 This will do several things: \n
-* 1. install pip dependcies
-* 2. make output directory called 'files' 
-* 3. remove previous output files in 'files'
-* 4. start running the necessary kafka servers 
-* 5. start the `test.py` which will spin up the consumer and producer
+* install pip dependcies
+* make output directory called 'files' 
+* remove previous output files in 'files'
+* start running the necessary kafka servers 
+* start the `test.py` which will spin up the consumer and producer
     
 
 #### 2. What is happening in python? 
