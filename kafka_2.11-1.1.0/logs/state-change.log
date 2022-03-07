@@ -924,3 +924,7 @@
 [2022-03-07 13:20:34,683] TRACE [Controller id=0 epoch=3] Received response {error_code=0} for request UPDATE_METADATA with correlation id 2 sent to broker localhost:9092 (id: 0 rack: null) (state.change.logger)
 [2022-03-07 13:29:37,579] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=state.change.logger (state.change.logger)
 [2022-03-07 13:32:26,788] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=state.change.logger (state.change.logger)
+[2022-03-07 13:42:46,538] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=state.change.logger (state.change.logger)
+[2022-03-07 13:44:15,460] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=state.change.logger (state.change.logger)
+[2022-03-07 13:47:15,012] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=state.change.logger (state.change.logger)
+[2022-03-07 13:49:15,798] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=state.change.logger (state.change.logger)

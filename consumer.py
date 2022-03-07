@@ -21,8 +21,15 @@ class Consumer:
             print(message)
             self.write_to_file('./files/' +'test' + str(count) + '.txt', message.value.decode('utf-8'))
             count += 1
+
+        print('Done consuming')
+        #close the consumer
+        self.close()
     
     def write_to_file(self, filename, message):
+        '''
+        Write the message to the file.
+        '''
         with open(filename, 'a') as f:
             f.write(message)
 

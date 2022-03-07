@@ -10,6 +10,9 @@ class Producer:
     def produce(self, message):
         try:
             temp = self.kp.send(self.topic, bytes(message, 'utf-8'))
+            #can access metadata here by doing temp.get()
+            #commented out because it makes the output messy
+            #print('temp', temp.get())
         except KafkaError as e:
             print(e)
 
@@ -19,6 +22,9 @@ class Producer:
             self.produce(message)
         #send all messages first
         self.kp.flush()
+        #then close the producer
+        print('Done producing')
+        self.close()
 
     def close(self):
         self.kp.close()

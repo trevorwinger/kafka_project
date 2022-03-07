@@ -13,7 +13,7 @@ def main():
     servers = ['localhost:9092']
     group_id = 'test_group'
     message = 'test message'
-    num_messages = 10000
+    num_messages = 100
 
     producer = Producer(topic, servers)
     producer.async_produce(make_messages(num_messages, message))

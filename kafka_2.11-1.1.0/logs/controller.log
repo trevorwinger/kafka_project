@@ -129,3 +129,7 @@
 [2022-03-07 13:30:43,278] INFO [RequestSendThread controllerId=0] Shutdown completed (kafka.controller.RequestSendThread)
 [2022-03-07 13:30:43,278] INFO [Controller id=0] Resigned (kafka.controller.KafkaController)
 [2022-03-07 13:32:26,799] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=kafka.controller (kafka.controller)
+[2022-03-07 13:42:46,545] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=kafka.controller (kafka.controller)
+[2022-03-07 13:44:15,466] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=kafka.controller (kafka.controller)
+[2022-03-07 13:47:15,134] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=kafka.controller (kafka.controller)
+[2022-03-07 13:49:15,823] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=kafka.controller (kafka.controller)
