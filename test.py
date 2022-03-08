@@ -16,7 +16,9 @@ def main():
     num_messages = 100
 
     producer = Producer(topic, servers)
-    producer.async_produce(make_messages(num_messages, message))
+    for m in make_messages(num_messages, message):
+        producer.produce(m)
+    #producer.async_produce(make_messages(num_messages, message))
     producer.close()
 
     consumer = Consumer(topic, group_id, servers)

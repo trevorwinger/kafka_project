@@ -4,7 +4,7 @@ from kafka.errors import KafkaError
 
 class Producer:
     def __init__(self, topic, servers):
-        self.kp = KafkaProducer(bootstrap_servers=servers, retries=5)
+        self.kp = KafkaProducer(bootstrap_servers=servers, retries=5, api_version=(0,11,5))
         self.topic = topic
 
     def produce(self, message):
